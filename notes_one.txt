@@ -1,0 +1,16 @@
+IBOutlets: Used for referencing something that is on your storyboard
+
+IBActions: Actions for when something happens
+
+constants: defined by let
+
+You don't explicitly have to define a data type to variables
+Type annotation says the variable must be explicitly this type:
+var myMessage : String
+
+
+Integer:
+Signed: Positive/Zero/Negative
+Unsigned: Positive or Zero
+default is signed
+UInt: unsigned integer
