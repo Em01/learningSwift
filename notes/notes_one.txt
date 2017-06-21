@@ -23,3 +23,8 @@ e.g:
 var myFloat: Float = 1.1
 var myDouble: Double = 2.2
 myDouble * Double(myDouble)
+
+String Interpolation:
+var myString = "Hello"
+print("So \(myString)")
+print("Again \(myString)")
