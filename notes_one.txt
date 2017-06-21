@@ -14,3 +14,12 @@ Signed: Positive/Zero/Negative
 Unsigned: Positive or Zero
 default is signed
 UInt: unsigned integer
+Double is precision of at least 15 digits
+Float is precision of 6
+
+Type Safety: Swift is a type safe language, to use two different types
+you would have to cast
+e.g:
+var myFloat: Float = 1.1
+var myDouble: Double = 2.2
+myDouble * Double(myDouble)
