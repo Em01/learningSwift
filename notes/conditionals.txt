@@ -1,0 +1,10 @@
+if/else statements do not use parentheses. e.g
+
+var one: Bool = true
+var anotherBool = false
+
+if one {
+  print("A")
+} else {
+  print("B")
+}
