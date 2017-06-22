@@ -1,0 +1,11 @@
+defined with func
+
+func myFunction() {
+
+}
+
+func withParams(amount: Double) {}
+params are constants by default
+withParams(amount: 2)
+
+iot - in/out when can't use a constant
