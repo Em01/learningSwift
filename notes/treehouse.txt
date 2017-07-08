@@ -1,0 +1,25 @@
+  VARIABLES:
+  * var declares a variable
+  * can be updated on the fly
+  * mutable
+  * Once you have assigned a value you the variable you cannot change the data type of it.
+
+  CONSTANTS
+  * defined by let
+  * immutable - locked in value
+  * use constants unless you know that the value needs to change
+
+  STRINGS:
+  * concatenation is done same as JS
+  * interpolation: \(variable) -> "hello, \(name)" - allows you to mix in other types
+
+  Numbers:
+  * Integer for a whole number
+  * Fractional numbers can be represented by either Double or Float.
+  * Double is up to 15 digits
+  * Float is up to 6 digits
+  * Suggested to use Double unless you know you need to use float.
+  * The different types has to do with the size of the number and how they are stored in memory
+
+  Booleans:
+  * Binary values represented by True/False
