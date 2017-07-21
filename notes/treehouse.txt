@@ -23,3 +23,16 @@
 
   Booleans:
   * Binary values represented by True/False
+
+
+  Type Safety:
+  * Swift is a type safe language - encouraging you to be clear about the types of the values which you work with
+  e.g- If a variable expects a string you cannot then pass it an Int by mistake
+  * Swift is a statically types language
+  * With static language the compiler can perform checks for you and ensure that you are not making any
+  mistakes through type checking.
+  * Instead of relying on the compiler we can explicitly declare the type that the constant or variable will hold.
+  e.g - let bestPlayer: String = "myString"
+  * If you do not declare a type then Swift will use type inference to automatically deduce the type via the compiler
+  * When the compiler infers the type for us the type annotation is implicit
+  * Declaring types explicitly allows for more readability
