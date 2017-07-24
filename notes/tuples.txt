@@ -1,0 +1,15 @@
+* Allow you to group together variables
+let coordinate: (Int, Int) = (3, 5)
+let another = (String, Int, Int) = ("Hi", 2, 4)
+another.1 //3
+
+* if you want to disregard a label use _ it means you don't really care about that value
+* tuples are really meant for short term operation
+
+var monster = ("reaper", 1, 1)
+var (name, hp, _) = monster
+
+var another = (String, Int, Bool)
+another = ("A", 2, true)
+
+var again = (name: "Blobby", hitPoints: 2, isAggroed: true)

@@ -1,0 +1,13 @@
+* Can hold text characters or emoji characters
+* To put a string in a quotation mark you need to use an escape "\""
+* Use + for concatenation
+* whitespace is a character
+* \ lets you add special characters e.g \t is tab
+* String interpolation allows you to place a string inside of a string
+let name = "a name"
+let test = "my name is \(name)"
+
+
+var test = "a name"
+name.replacingOccurrences(of: "name", with: "face")
+replacingOccurrences(of: “a”, with: “b”) lets you replaces part of a string
