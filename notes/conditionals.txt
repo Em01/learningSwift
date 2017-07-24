@@ -8,3 +8,5 @@ if one {
 } else {
   print("B")
 }
+
+if likesSwift == true && x > 0 {}
