@@ -1,0 +1,17 @@
+var myString: String = "hi"
+var myInt: Int = 2
+var myFloat: Float = 2.1
+var myDouble: Double = 2.356549
+* Use character in string for emoji
+* Double is 64 bit
+* Float is 32 bit
+* if you know you will use only positive numbers you can use Uint
+* You cannot add together two different types
+* To add together two different types you would have to convert one to the other
+
+* Type conversion:
+Type(Value)
+String(2)
+
+The as keyword works to convert a type
+let actuallyDouble = 3 as Double

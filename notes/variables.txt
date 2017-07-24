@@ -1,0 +1,5 @@
+* Constants defined by let
+* Variables defined by var
+
+* Variables are mutable
+* Constants are immuatable

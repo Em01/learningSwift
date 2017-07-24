@@ -1,0 +1,8 @@
+var myArray = [1, 2, 3]
+
+* Can specify the type so not reliant on the compiler
+
+var myArray: [Int] = [1, 2, 3]
+var myStringArr: [String] = ["a", "b", "c"]
+
+* Arrays are restricted to one data type- you cannot have mixed arrays due to type safety
