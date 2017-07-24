@@ -36,3 +36,18 @@
   * If you do not declare a type then Swift will use type inference to automatically deduce the type via the compiler
   * When the compiler infers the type for us the type annotation is implicit
   * Declaring types explicitly allows for more readability
+
+  Operators:
+  * order of precedence:
+  140: + -
+  150: * / %
+
+  Binary use two operators
+  Unary use one
+  var myNum = 1
+  myNum = myNum + 1
+  //
+  myNum += 1
+  myNum +- 1
+
+  ! negates the value
