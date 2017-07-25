@@ -1,0 +1,28 @@
+while x < 0 {
+  print(x)
+}
+
+repeat while loop is similar to the do while loop
+
+repeat {
+  print(x)
+} while x > 0
+
+use for in loop to work with ranges
+... provides the range
+
+for x in 1 ... 5 {
+  print(x)
+}
+
+control inside the loop:
+continue stop current iteration in the loop and skip to the next iteration
+
+for x 1 ... 5 {
+  if x == 1 {
+    continue //skips any processing
+  }
+  value += x
+}
+
+break keyword exits the loop

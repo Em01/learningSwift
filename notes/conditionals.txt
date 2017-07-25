@@ -10,3 +10,5 @@ if one {
 }
 
 if likesSwift == true && x > 0 {}
+
+* variables created inside an if statement are local

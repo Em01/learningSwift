@@ -1,0 +1,10 @@
+var likesSwift = true
+
+switch likesSwift {
+case true:
+  print("A")
+case false:
+  print("B")
+default:
+  print("C")
+}
