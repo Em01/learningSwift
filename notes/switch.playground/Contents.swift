@@ -19,7 +19,7 @@ default:
 }
 
 switch direction {
-    case north ... east
+case north ... east:
     print("n s e")
 case west:
     print("you walked west")
