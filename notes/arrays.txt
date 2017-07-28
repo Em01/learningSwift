@@ -6,3 +6,30 @@ var myArray: [Int] = [1, 2, 3]
 var myStringArr: [String] = ["a", "b", "c"]
 
 * Arrays are restricted to one data type- you cannot have mixed arrays due to type safety
+
+* .append adds value to an array
+var arr: [String] = ["a", "b", "c"]
+arr.append("d")
+//["a", "b", "c", "d"]
+
+* concat two arrays
+[1, 2, 3] + [4]
+arr + ["f"]
+
+* types have to be the same
+* You obviously cannot append items to a immutable array e.g with let
+
+* To get values from an array use subscripting
+todos[0]
+
+* Mutate a value
+todos[5] = "are"
+
+* Insert at an index
+todo.insert("F", at: 2)
+
+* remove item
+todo.remove(at: 4)
+
+* count
+todo.count
