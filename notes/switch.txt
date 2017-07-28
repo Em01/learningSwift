@@ -8,3 +8,6 @@ case false:
 default:
   print("C")
 }
+
+Similar to JS without parens
+fallthrough behaviour requires that keyword
