@@ -31,5 +31,6 @@ todo.insert("V", at: 4)
 todo.remove(at: 4)
 
 //array length
+print(todo)
 todo.count
 

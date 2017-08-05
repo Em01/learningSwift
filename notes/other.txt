@@ -1,1 +1,2 @@
 print() prints to the console
+Option key and click will show the type

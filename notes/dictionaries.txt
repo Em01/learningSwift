@@ -1,0 +1,24 @@
+* Set of Key/Value pairs
+
+* Unlike Arrays Dictionaries do not preserve any order-if the order matters
+then do not use a dictionary.
+
+* let airportCodes: [String: String] = [
+    "LGA": "La Guardia",
+    "LHR": "London Heathrow",
+    "CDG": "Charles de Gualle",
+    "HXG": "Hong Kong International",
+    "DXB": "Dubai International"
+]
+
+* Uses subscripting like arrays but use key to get a value out of the dictionary
+airportCodes["LGA"]
+
+* Cannot add a value if a constant
+
+* To add a value:
+airportCodes["SYD"] = "Sydney"
+Think that the equal operator adds a value
+
+* To update a value or add a value-if it exists it will update otherwise it will add
+airportCodes.updateValue("some new value", forKey: "LGA")
