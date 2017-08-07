@@ -9,3 +9,11 @@ params are constants by default
 withParams(amount: 2)
 
 iot - in/out when can't use a constant
+
+-> Int return symbol
+
+* If returning something from a function -> and data type of return value
+func testing() -> Int {
+
+return someting
+}
