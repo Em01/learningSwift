@@ -84,8 +84,9 @@ class ViewController: UIViewController {
     
     
     func startOver() {
-       questionNumber = 0
+        questionNumber = 0
         nextQuestion()
+        score = 0
     }
     
 }
