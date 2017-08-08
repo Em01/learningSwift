@@ -53,6 +53,8 @@ class ViewController: UIViewController {
         if questionNumber <= 12 {
             questionLabel.text = allQuestions.list[questionNumber].questionText
         } else {
+            let alert = UIAlertController(title: "Awesome", message: "You have finished all the questions, do you want to start over?", preferredStyle: .alert)
+            
             print("End of quiz")
             questionNumber = 0
         }
