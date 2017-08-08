@@ -26,7 +26,7 @@
                   moduleName = "Quizzler"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/emmaw/courses/udemySwift/quizzler/Quizzler/ViewController.swift"
-                  timestampString = "523875948.646424"
+                  timestampString = "523892479.116938"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -41,7 +41,7 @@
                   moduleName = "Quizzler"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/emmaw/courses/udemySwift/quizzler/Quizzler/ViewController.swift"
-                  timestampString = "523875948.651308"
+                  timestampString = "523892479.118323"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -56,7 +56,70 @@
                   moduleName = "Quizzler"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/emmaw/courses/udemySwift/quizzler/Quizzler/ViewController.swift"
-                  timestampString = "523875948.65301"
+                  timestampString = "523892479.119639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quizzler/ViewController.swift"
+            timestampString = "523892478.722019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quizzler.ViewController.allQuestions.getter : Quizzler.QuestionBank"
+                  moduleName = "Quizzler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmaw/courses/udemySwift/quizzler/Quizzler/ViewController.swift"
+                  timestampString = "523892479.104938"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quizzler.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Quizzler.ViewController"
+                  moduleName = "Quizzler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmaw/courses/udemySwift/quizzler/Quizzler/ViewController.swift"
+                  timestampString = "523892479.106703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quizzler.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Quizzler.ViewController&gt;"
+                  moduleName = "Quizzler"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmaw/courses/udemySwift/quizzler/Quizzler/ViewController.swift"
+                  timestampString = "523892479.108391"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
