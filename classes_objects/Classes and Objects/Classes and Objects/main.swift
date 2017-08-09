@@ -9,9 +9,14 @@
 import Foundation
 
 let myCar = Car()
+let mySelfDrivingCar = SelfDrivingCar()
 
-let someRichGuysCar = Car(cusomerChosenColor: "Gold")
+let someRichGuysCar = Car(customerChosenColor: "Gold")
+
+myCar.drive()
+mySelfDrivingCar.drive()
 
 print(myCar.color)
 print(myCar.numberOfSeats)
 print(myCar.typeOfCar)
+print(mySelfDrivingCar.color)

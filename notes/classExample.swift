@@ -20,3 +20,10 @@ convenience init (customerChosenColor : String) {
   self.init()
   color = myColor
 }
+
+
+//Inheritance-anotherCar is a subclass of the car superclass
+class AnotherCar : Car {
+
+
+}
