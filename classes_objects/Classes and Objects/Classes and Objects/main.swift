@@ -14,9 +14,6 @@ let mySelfDrivingCar = SelfDrivingCar()
 let someRichGuysCar = Car(customerChosenColor: "Gold")
 
 myCar.drive()
+mySelfDrivingCar.destination = "1"
 mySelfDrivingCar.drive()
 
-print(myCar.color)
-print(myCar.numberOfSeats)
-print(myCar.typeOfCar)
-print(mySelfDrivingCar.color)

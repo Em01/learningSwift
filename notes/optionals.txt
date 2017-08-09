@@ -1,0 +1,13 @@
+* Prevents null pointer error.
+* It means it could contain a nil value
+
+var example : String = "Hi"?
+
+* When you use ! it means you are 100% sure that the property is not nill.
+print(destination!)
+
+* optional binding lets you check a value is not nil before it gets used in any line of code
+
+if destination != nil {}
+is the equivalent of setting a constant set the value of the optional
+if let userSetDestination = destination
