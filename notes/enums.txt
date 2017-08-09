@@ -1,0 +1,10 @@
+* Allow you to create your own data type
+
+enum catColor {
+
+case white,
+case red,
+case brown
+}
+
+var testCat : catColor = .red

@@ -8,3 +8,7 @@ class Car {
     color = carColor
   }
 }
+
+//Then in main:
+
+let myCar = Car(name: "A name", color: "Black")

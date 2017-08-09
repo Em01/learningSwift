@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+let myCar = Car(customerChosenColor: "Pink")
+
+print(myCar.color)
+print(myCar.numberOfSeats)
+print(myCar.typeOfCar)
