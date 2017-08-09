@@ -20,8 +20,13 @@ class Car {
     var numberOfSeats: Int = 5
     var typeOfCar : CarType = .Coupe
     
-    init(customerChosenColor : String) {
+    init() {
         //what should happen when a new obj is created from car class
+//        color = customerChosenColor
+    }
+    
+    convenience init (customerChosenColor : String) {
+        self.init()
         color = customerChosenColor
     }
 }
