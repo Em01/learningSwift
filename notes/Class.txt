@@ -1,0 +1,3 @@
+* Blueprint that determines various properties. E.g A car manual
+* Object is what is made from the class
+* Objects have properties, actions (functions) and events for when the object should do something.
