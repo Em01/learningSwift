@@ -9,5 +9,11 @@
 import Foundation
 
 class SelfDrivingCar : Car {
+    
+    var destination : String = "1 infinite loop"
+    
+    override func drive() {
+    
+    }
 
 }
