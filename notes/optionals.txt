@@ -11,3 +11,11 @@ print(destination!)
 if destination != nil {}
 is the equivalent of setting a constant set the value of the optional
 if let userSetDestination = destination
+
+* you do not need to force unwrap anything (no !)
+* ! after variable = force unwrapping
+* ? Optional binding-changes the data type to an optional string data type for example,
+Every data type has a optional counterpart
+* if you want to use the optional data type you have to use the ! at the end of the variable
+* When you use force unwrapping you are losing the optional data type
+* checking new constant equals value of optional does not equal nil then you dont have to use force unwrapping
