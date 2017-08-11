@@ -1,0 +1,9 @@
+let locationManager = CLLocationManager()
+
+func viewDidLoad() {
+  locationManager.self = delegate
+}
+
+
+* conform to the delegate and then set ourselves as the delegate of the location manager
+so that the location manager knows who to report to.
