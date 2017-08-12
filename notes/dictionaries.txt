@@ -22,3 +22,7 @@ Think that the equal operator adds a value
 
 * To update a value or add a value-if it exists it will update otherwise it will add
 airportCodes.updateValue("some new value", forKey: "LGA")
+
+* Word and associated meaning
+* Retrieve value using key, Think coat jacket analogy
+* If you have data that needs to be sequential use array
