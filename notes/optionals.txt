@@ -19,3 +19,8 @@ Every data type has a optional counterpart
 * if you want to use the optional data type you have to use the ! at the end of the variable
 * When you use force unwrapping you are losing the optional data type
 * checking new constant equals value of optional does not equal nil then you dont have to use force unwrapping
+
+* Optional chaining
+delegate?.someMethod()
+//Checks to see if the delegate contains a value and if so will execute the fn, if it does
+//not contain a value then it will not run the function

@@ -1,0 +1,19 @@
+* Think of a protocol as a contract
+
+protocol changeCityDelegate {
+  func userEnteredANewCityName(city: String)
+
+}
+
+* The above draws up the contract and says if you want to be the delegate then
+you have to be able to implement the userEntered... method. So you have to be
+able to handle what happens when the user uses this method & the method must be
+within your class.
+
+class ChangeCityViewController: UIViewController {
+
+  var delegate : ChangeCityDelegate?
+  //this means that the delegate can be set to ChangeCityDelegate but because it is an
+  //optional if this is not the case then its value will be set to nil.
+
+}

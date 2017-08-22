@@ -8,3 +8,6 @@ func viewDidLoad() {
 * conform to the delegate and then set ourselves as the delegate of the location manager
 so that the location manager knows who to report to.
 * Pattern allows us to use code written by apple
+
+* You can stop the delegate manager receiving messages from the delegate:
+mydelegateManager.delagte = nil
